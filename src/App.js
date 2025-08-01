@@ -7,7 +7,7 @@ import { baseSepolia } from "wagmi/chains"
 import './App.css';
 const queryClient = new QueryClient();
 
-const CONTRACT_ADDRESS = "0x100Fd3D6AF3a92716dBD9b446148b073C6F112bC";
+const CONTRACT_ADDRESS = "";
 const CONTRACT_ABI = [
   "function registerVisit() public",
   "function visitorCount() public view returns (uint256)"
